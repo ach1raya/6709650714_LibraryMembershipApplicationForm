@@ -10,11 +10,12 @@
 <center>
     <header>
         <h1> <font color="black">*:･ﾟ✧ MEMBER ☆ﾟ.*</font></h1>
+        <p>แบบฟอร์มการสมัครสมาชิก</p>
     </header>
 <br>
     <form>
         <fieldset>
-            <legend>แบบฟอร์มการสมัครสมาชิก</legend><br>
+            <legend>ข้อมูลส่วนตัว</legend><br>
             <label for="nameTh">ชื่อ-สกุล (ภาษาไทย) :</label>
             <input type="text" id="nameTh" name="nameTh"><br><br>
 
@@ -30,23 +31,29 @@
             <label for="anonymous">ไม่ระบุ</label>
             <br><br>
 
+            <label for="date">วัน/เดือน/ปี :</label>
+            <input type="date" id="date" name="date" "><br><br>
+
+            <label for="email">ที่อยู่อีเมล (E-mail address) :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        
+        </fieldset>
+    <br>
+
+        <fieldset>
+            <legend>ข้อมูล</legend><br>
             <label for="รหัสนักศึกษา">รหัสนักศึกษา :</label>
             <input type="number" id="รหัสนักศึกษา" name="รหัสนักศึกษา"><br><br>
 
             <label for="คณะที่ศึกษา">คณะที่ศึกษา :</label>
             <input type="text" id="คณะที่ศึกษา" name="คณะที่ศึกษา"><br><br>
 
-            <label for="email">ที่อยู่อีเมล (E-mail address) :</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+            <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ :</label><br>
+            <textarea name="comment" cols="20" rows="4">ตัวอย่าง นิยายและวัณกรรม ประวัติศาสตร์ การศึกษาและการเรียนรู้ เป็นต้น</textarea>
+            <br><br>
 
-            <label for="ิbirth">วัน/เดือน/ปี :</label>
-            <input type="text" id="ิbirth" name="ิbirth" placeholder="00/00/0000"><br><br>
-
-            <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ :</label>
-            <input type="text" id="หนังสือที่สนใจ" name="หนังสือที่สนใจ"><br><br>
-
-            <label for="newsletter">ความต้องการรับข่าวสารของห้องสมุดทางอีเมลหรือไม่ :</label>
-            <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+            <label for="newsletter">ความต้องการรับข่าวสารของห้องสมุดทางอีเมล</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes" ><br><br>
 
 
         </fieldset>
